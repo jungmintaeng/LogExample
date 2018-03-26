@@ -25,7 +25,7 @@
 				  <groupId>commons-logging</groupId>
 				  <artifactId>commons-logging</artifactId>
 			   </exclusion>
-			</exclusions>
+			</exclusions>	<!-- common-logging을 제외하고 다운로드 하겠다는 말(Logback으로 대체할 것이기 때문에) -->
 			
 		</dependency>
 		<dependency>
@@ -52,7 +52,7 @@
 		<dependency>                                    
 			<groupId>org.slf4j</groupId>                
 			<artifactId>jcl-over-slf4j</artifactId>     
-			<version>${jcloverslf4j.version}</version>  
+			<version>${jcloverslf4j.version}</version>  <!-- bridge interface -->
 		</dependency>
 		<dependency>
 			<groupId>ch.qos.logback</groupId>

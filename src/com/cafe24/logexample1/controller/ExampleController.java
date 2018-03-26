@@ -1,4 +1,4 @@
-package com.bigdata2017.logexample1.controller;
+package com.cafe24.logexample1.controller;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
